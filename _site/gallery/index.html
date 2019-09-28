@@ -10,10 +10,22 @@
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-ckeck">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2016/11/04/title-of-post.html">This is the title of the second post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the first post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2016/11/04/title-of-post.html">Newest Post</a></li>
 
     </ul>
@@ -73,12 +85,22 @@
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2016/11/04/title-of-post.html">This is the title of the second post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the first post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2016/11/04/title-of-post.html">Newest Post</a></li>
 
     </ul>
   </nav>
-  <ul class="social-list">
+  <!-- <ul class="social-list">
     <li>
   <a href="https://example.com/" class="social-link">Fb</a>
 </li>
@@ -89,7 +111,7 @@
   <a href="https://example.com/" class="social-link">Gh</a>
 </li>
 
-  </ul>
+  </ul> -->
   <h3>Learn Enough <span>to Be Dangerous</span></h3>
 </footer>
 
