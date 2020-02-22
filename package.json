@@ -1,0 +1,24 @@
+{
+  "name": "learn_enough_css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielurb/learn_enough_css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielurb/learn_enough_css/issues"
+  },
+  "homepage": "https://danielurb.github.io/learn_enough_css",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
